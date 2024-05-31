@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link
+    <!-- <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/tailwind.css" />
+    <link rel="stylesheet" href="styles/tailwind.css" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-gray-100 text-gray-900">
     <!-- Header Section -->
@@ -21,29 +22,30 @@
     <!-- Main Content Section -->
     <main class="container mx-auto p-6">
       <!-- Profile Section -->
-      <section id="profile" class="mb-12 text-center">
+      <section id="profile" class="mt-12 mb-12 text-center">
         <img
           src="asserts/Prabir.png"
           alt="Profile Picture"
-          class="rounded-full w-32 h-32 mx-auto mb-4"
+          class="rounded-full w-52 h-52 mx-auto mb-4 shadow-lg shadow-indigo-400"
         />
-        <h2 class="text-2xl font-semibold">Prabir Tarafdar</h2>
-        <p class="text-lg">Aspiring Software Developer</p>
-        <p class="text-gray-600">
-          Self-motivated and committed to personal growth, consistently
+        <h2 class="text-4xl font-bold mb-2">Prabir Tarafdar</h2>
+        <p class="text-2xl mb-2 font-semibold">Aspiring Software Developer</p>
+        <p class="text-slate-900 text-xl mb-4">
+          Self-motivated and dedicated to personal growth, consistently
           approaching challenges with positive energy and a problem-solving
-          mindset.
+          mindset. Committed to delivering high-quality solutions and
+          continuously improving technical skills.
         </p>
       </section>
 
       <!-- Technical Skills Section -->
       <section id="skills" class="mb-12">
-        <h2 class="text-2xl font-semibold mb-4 text-center">
-          Technical Skills
-        </h2>
-        <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-4">
+        <h2 class="text-2xl font-semibold mb-6">Technical Skills</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
           <!-- Skill 1 -->
-          <div class="bg-white shadow rounded-lg p-6 text-center">
+          <div
+            class="bg-white drop-shadow-xl border-2 border-green-300 rounded-3xl p-6 text-center"
+          >
             <img
               src="asserts/cpp.png"
               alt="C++"
@@ -52,7 +54,9 @@
             <h3 class="text-xl font-semibold">C++</h3>
           </div>
           <!-- Skill 2 -->
-          <div class="bg-white shadow rounded-lg p-6 text-center">
+          <div
+            class="bg-white drop-shadow-xl border-2 border-green-300 rounded-3xl p-6 text-center"
+          >
             <img
               src="asserts/NET_Core.png"
               alt=".Net Core"
@@ -61,7 +65,9 @@
             <h3 class="text-xl font-semibold">.NET Core</h3>
           </div>
           <!-- Skill 3 -->
-          <div class="bg-white shadow rounded-lg p-6 text-center">
+          <div
+            class="bg-white drop-shadow-xl border-2 border-green-300 rounded-3xl p-6 text-center"
+          >
             <img
               src="asserts/api.png"
               alt=".Net Web API"
@@ -71,7 +77,9 @@
           </div>
 
           <!-- Skill 4 -->
-          <div class="bg-white shadow rounded-lg p-6 text-center">
+          <div
+            class="bg-white drop-shadow-xl border-2 border-green-300 rounded-3xl p-6 text-center"
+          >
             <img
               src="asserts/js.png"
               alt="JavaScript"
@@ -81,7 +89,9 @@
           </div>
 
           <!-- Skill 5 -->
-          <div class="bg-white shadow rounded-lg p-6 text-center">
+          <div
+            class="bg-white drop-shadow-xl border-2 border-green-300 rounded-3xl p-6 text-center"
+          >
             <img
               src="asserts/React-icon.png"
               alt="React"
@@ -91,7 +101,9 @@
           </div>
 
           <!-- Skill 6 -->
-          <div class="bg-white shadow rounded-lg p-6 text-center">
+          <div
+            class="bg-white drop-shadow-xl border-2 border-green-300 rounded-3xl p-6 text-center"
+          >
             <img
               src="asserts/htmlpng.png"
               alt="HTML"
@@ -101,7 +113,9 @@
           </div>
 
           <!-- Skill 7 -->
-          <div class="bg-white shadow rounded-lg p-6 text-center">
+          <div
+            class="bg-white drop-shadow-xl border-2 border-green-300 rounded-3xl p-6 text-center"
+          >
             <img
               src="asserts/css.webp"
               alt="CSS"
@@ -111,7 +125,9 @@
           </div>
 
           <!-- Skill 8 -->
-          <div class="bg-white shadow rounded-lg p-6 text-center">
+          <div
+            class="bg-white drop-shadow-xl border-2 border-green-300 rounded-3xl p-6 text-center"
+          >
             <img
               src="asserts/python.png"
               alt="python3"
@@ -120,8 +136,10 @@
             <h3 class="text-xl font-semibold">Python</h3>
           </div>
 
-          <!-- Skill 1 -->
-          <div class="bg-white shadow rounded-lg p-6 text-center">
+          <!-- Skill 9 -->
+          <div
+            class="bg-white drop-shadow-xl border-2 border-green-300 rounded-3xl p-6 text-center"
+          >
             <img
               src="asserts/nodeJs.png"
               alt="NodeJs"
@@ -130,8 +148,10 @@
             <h3 class="text-xl font-semibold">Node js</h3>
           </div>
 
-          <!-- Skill 1 -->
-          <div class="bg-white shadow rounded-lg p-6 text-center">
+          <!-- Skill 10 -->
+          <div
+            class="bg-white drop-shadow-xl border-2 border-green-300 rounded-3xl p-6 text-center"
+          >
             <img
               src="asserts/sql-database.png"
               alt="SQL"
@@ -140,8 +160,10 @@
             <h3 class="text-xl font-semibold">SQL</h3>
           </div>
 
-          <!-- Skill 1 -->
-          <div class="bg-white shadow rounded-lg p-6 text-center">
+          <!-- Skill 11 -->
+          <div
+            class="bg-white drop-shadow-xl border-2 border-green-300 rounded-3xl p-6 text-center"
+          >
             <img
               src="asserts/Git_icon.png"
               alt="Git"
